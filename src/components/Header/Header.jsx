@@ -1,13 +1,13 @@
-
+import { HeaderBg, Text } from "./Header.styled";
 
 const Header = () => {
     return (
-      <header>
-        <p>
+      <HeaderBg>
+        <Text>
           LK-01 Pure Salidroside Clinically Proven to Improve Resiliency and
           Mood
-        </p>
-      </header>
+        </Text>
+      </HeaderBg>
     );
 }
 

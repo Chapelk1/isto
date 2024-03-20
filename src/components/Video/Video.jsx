@@ -1,16 +1,20 @@
+import { Section, Container } from "components/Helpers/helpers.styled";
+
 const Video = () => {
   return (
-    <section>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Wkk8NK6SPrw?si=Doarbobr6rACAsyh"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    </section>
+    <Section style={{ background: "var(--tertiary-color)" }}>
+      <Container>
+        <iframe
+          width="100%"
+          height="556"
+          src="https://www.youtube.com/embed/SnUBb-FAlCY?si=xS7W74ulnj20eS6k"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </Container>
+    </Section>
   );
 };
 
