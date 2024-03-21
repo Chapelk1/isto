@@ -25,20 +25,20 @@ const Footer = () => {
           <TopList>
             <TopListItem>
               <TopSubTitle>Shop</TopSubTitle>
-              <TopLink href="/">FAQS</TopLink>
-              <TopLink href="/">Account</TopLink>
-              <TopLink href="/">Cart</TopLink>
+              <TopLink href="./">FAQS</TopLink>
+              <TopLink href="./">Account</TopLink>
+              <TopLink href="./">Cart</TopLink>
             </TopListItem>
             <TopListItem>
               <TopSubTitle>Connect</TopSubTitle>
-              <TopLink href="/">Learn</TopLink>
-              <TopLink href="/">care@landkind.health</TopLink>
-              <TopLink href="/">855-305-9894</TopLink>
-              <TopLink href="/">Instagram</TopLink>
-              <TopLink href="/">Twitter</TopLink>
-              <TopLink href="/">LinkedIn</TopLink>
-              <TopLink href="/">Facebook</TopLink>
-              <TopLink href="/">Pinterest</TopLink>
+              <TopLink href="./">Learn</TopLink>
+              <TopLink href="./">care@landkind.health</TopLink>
+              <TopLink href="./">855-305-9894</TopLink>
+              <TopLink href="./">Instagram</TopLink>
+              <TopLink href="./">Twitter</TopLink>
+              <TopLink href="./">LinkedIn</TopLink>
+              <TopLink href="./">Facebook</TopLink>
+              <TopLink href="./">Pinterest</TopLink>
             </TopListItem>
           </TopList>
         </TopWrap>
@@ -48,25 +48,25 @@ const Footer = () => {
           <ProvisionsWrap>
             <ProvisionsList>
               <ProvisionsItem>
-                <ProvisionsLink href="/">
+                <ProvisionsLink href="./">
                   Privacy <span>Policy</span>
                 </ProvisionsLink>
               </ProvisionsItem>
               <ProvisionsItem>
-                <ProvisionsLink href="/">
+                <ProvisionsLink href="./">
                   Terms <span>of Use</span>
                 </ProvisionsLink>
               </ProvisionsItem>
               <ProvisionsItem>
-                <ProvisionsLink href="/">
+                <ProvisionsLink href="./">
                   Return <span>policy</span>
                 </ProvisionsLink>
               </ProvisionsItem>
               <ProvisionsItem>
-                <ProvisionsLink href="/">Affiliates</ProvisionsLink>
+                <ProvisionsLink href="./">Affiliates</ProvisionsLink>
               </ProvisionsItem>
               <ProvisionsItem>
-                <ProvisionsLink href="/">
+                <ProvisionsLink href="./">
                   Ambassador <span>Program</span>
                 </ProvisionsLink>
               </ProvisionsItem>
