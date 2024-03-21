@@ -1,5 +1,10 @@
-import { Wrap, Title, WrapText, Text, Btn } from "./Hero.styled";
-import { Container, Photo, Section } from "components/Helpers/helpers.styled";
+import { Wrap, Title, WrapText, Text } from "./Hero.styled";
+import {
+  Container,
+  Photo,
+  Section,
+  Btn,
+} from "components/Helpers/helpers.styled";
 import heroPhoto from "img/hero-photo.png";
 
 const Hero = () => {

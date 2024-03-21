@@ -5,6 +5,7 @@ const Video = () => {
     <Section style={{ background: "var(--tertiary-color)" }}>
       <Container>
         <iframe
+          style={{ display: 'block',}}
           width="100%"
           height="556"
           src="https://www.youtube.com/embed/SnUBb-FAlCY?si=xS7W74ulnj20eS6k"

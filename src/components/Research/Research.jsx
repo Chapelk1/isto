@@ -1,24 +1,28 @@
+import { Title, Descr, List, Item, Span, Text } from "./Research.styled";
+import {Section, Container, Btn} from "components/Helpers/helpers.styled"
 const Research = () => {
   return (
-    <section>
-      <h1>Industry-changing consistency, purity, and efficacy.</h1>
-      <p>Bioengineered to help you reach your peak</p>
-      <ul>
-        <li>
-          <span>08 + </span>
-          <p>Years of research</p>
-        </li>
-        <li>
-          <span>MIT + YALE</span>
-          <p>Developed by world-leading scientists</p>
-        </li>
-        <li>
-          <span>300 + </span>
-          <p>Peer-reviewed studies</p>
-        </li>
-      </ul>
-      <button>View Salidroside studies on PubMed</button>
-    </section>
+    <Section style={{padding: '260px 0 210px 0',     textAlign: 'center',}}>
+      <Container>
+        <Title>Industry-changing consistency, purity, and efficacy.</Title>
+        <Descr>Bioengineered to help you reach your peak</Descr>
+        <List>
+          <Item>
+            <Span>08 + </Span>
+            <Text>Years of research</Text>
+          </Item>
+          <Item>
+            <Span>MIT + YALE</Span>
+            <Text>Developed by world-leading scientists</Text>
+          </Item>
+          <Item>
+            <Span>300 + </Span>
+            <Text>Peer-reviewed studies</Text>
+          </Item>
+        </List>
+        <Btn>View Salidroside studies on PubMed</Btn>
+      </Container>
+    </Section>
   );
 };
 

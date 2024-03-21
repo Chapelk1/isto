@@ -1,56 +1,85 @@
+import { Container } from "components/Helpers/helpers.styled";
+import {
+  Ftr,
+  TopWrap,
+  Title,
+  TopList,
+  TopListItem,
+  TopSubTitle,
+  TopLink,
+  BottWrap,
+  Accent,
+  ProvisionsWrap,
+  ProvisionsList,
+  ProvisionsItem,
+  ProvisionsLink,
+  Note,
+} from "./Footer.styled";
+
 const Footer = () => {
   return (
-    <section>
-      <div>
-        <h2>Raise your supplement standards.</h2>
-        <ul>
-          <li>
-            <h3>Shop</h3>
-            <a href="">FAQS</a>
-            <a href="">Account</a>
-            <a href="">Cart</a>
-          </li>
-          <li>
-            <h3>Connect</h3>
-            <a href="">Learn</a>
-            <a href="">care@landkind.health</a>
-            <a href="">855-305-9894</a>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
-            <a href="">LinkedIn</a>
-            <a href="">Facebook</a>
-            <a href="">Pinterest</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <p>© 2023 Landkind, Inc.</p>
-        <div>
-          <ul>
-            <li>
-              <p>Privacy Policy</p>
-            </li>
-            <li>
-              <p>Terms of Use</p>
-            </li>
-            <li>
-              <p>Return policy</p>
-            </li>
-            <li>
-              <p>Affiliates</p>
-            </li>
-            <li>
-              <p>Ambassador Program</p>
-            </li>
-          </ul>
-          <p>
-            *These statements have not been evaluated by the Food and Drug
-            Administration. This product is not intended to diagnose, treat,
-            cure, or prevent any disease.
-          </p>
-        </div>
-      </div>
-    </section>
+    <Ftr>
+      <Container style={{padding: '80px 0 89px 0'}}>
+        <TopWrap>
+          <Title>Raise your supplement standards.</Title>
+          <TopList>
+            <TopListItem>
+              <TopSubTitle>Shop</TopSubTitle>
+              <TopLink href="/">FAQS</TopLink>
+              <TopLink href="/">Account</TopLink>
+              <TopLink href="/">Cart</TopLink>
+            </TopListItem>
+            <TopListItem>
+              <TopSubTitle>Connect</TopSubTitle>
+              <TopLink href="/">Learn</TopLink>
+              <TopLink href="/">care@landkind.health</TopLink>
+              <TopLink href="/">855-305-9894</TopLink>
+              <TopLink href="/">Instagram</TopLink>
+              <TopLink href="/">Twitter</TopLink>
+              <TopLink href="/">LinkedIn</TopLink>
+              <TopLink href="/">Facebook</TopLink>
+              <TopLink href="/">Pinterest</TopLink>
+            </TopListItem>
+          </TopList>
+        </TopWrap>
+
+        <BottWrap>
+          <Accent>© 2023 Landkind, Inc.</Accent>
+          <ProvisionsWrap>
+            <ProvisionsList>
+              <ProvisionsItem>
+                <ProvisionsLink href="/">
+                  Privacy <span>Policy</span>
+                </ProvisionsLink>
+              </ProvisionsItem>
+              <ProvisionsItem>
+                <ProvisionsLink href="/">
+                  Terms <span>of Use</span>
+                </ProvisionsLink>
+              </ProvisionsItem>
+              <ProvisionsItem>
+                <ProvisionsLink href="/">
+                  Return <span>policy</span>
+                </ProvisionsLink>
+              </ProvisionsItem>
+              <ProvisionsItem>
+                <ProvisionsLink href="/">Affiliates</ProvisionsLink>
+              </ProvisionsItem>
+              <ProvisionsItem>
+                <ProvisionsLink href="/">
+                  Ambassador <span>Program</span>
+                </ProvisionsLink>
+              </ProvisionsItem>
+            </ProvisionsList>
+            <Note>
+              *These statements have not been evaluated by the Food and Drug
+              Administration. This product is not intended to diagnose, treat,
+              cure, or prevent any disease.
+            </Note>
+          </ProvisionsWrap>
+        </BottWrap>
+      </Container>
+    </Ftr>
   );
 };
 
