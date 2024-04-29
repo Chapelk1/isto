@@ -1,6 +1,6 @@
-import { Container } from "components/Helpers/helpers.styled";
 import {
   Ftr,
+  Container,
   TopWrap,
   Title,
   TopList,
@@ -19,7 +19,7 @@ import {
 const Footer = () => {
   return (
     <Ftr>
-      <Container style={{padding: '80px 0 89px 0'}}>
+      <Container >
         <TopWrap>
           <Title>Raise your supplement standards.</Title>
           <TopList>

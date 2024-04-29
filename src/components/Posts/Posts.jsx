@@ -1,11 +1,11 @@
-import { Section, Container, Photo } from "components/Helpers/helpers.styled";
-import { Title, List, Item, Link } from "./Posts.styled";
+import { Photo } from "components/Helpers/helpers.styled";
+import { Section, Title, List, Item, Link } from "./Posts.styled";
 
 import galleryOfPosts from "img/img";
 
 const Posts = () => {
   return (
-    <Section style={{ padding: "169px 0 3px 0" }}>
+    <Section>
       <Title>@loremIpsumDolor & #sitAmetConsectetur.</Title>
       <List>
         <Item>

@@ -3,9 +3,39 @@ import styled from "@emotion/styled";
 export const Ftr = styled.footer`
   background: var(--primary-color);
 `;
+
+export const Container = styled.div`
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 10px 40px 10px;
+  @media screen and (min-width: 320px) {
+    
+  }
+  @media screen and (min-width: 768px) {
+    
+  }
+  @media screen and (min-width: 1024px) {
+    
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1030px;
+    padding: 80px 15px 89px 15px;
+  }
+`;
+
 export const TopWrap = styled.div`
-  display: flex;
-  margin-bottom: 225px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    margin-bottom: 225px;
+  }
 `;
 export const Title = styled.h2`
   font-weight: 400;
@@ -14,16 +44,48 @@ export const Title = styled.h2`
   letter-spacing: 0.01em;
   color: var(--tertiary-color);
   max-width: 329px;
-  margin-right: 171px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    margin-right: 171px;
+  }
 `;
-export const TopList = styled.ul`
-  display: flex;
+export const TopList = styled.div`
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
 `;
-export const TopListItem = styled.li`
+export const TopListItem = styled.div`
   display: flex;
   flex-direction: column;
   :not(:last-child) {
-    margin-right: 185px;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+    :not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    :not(:last-child) {
+      margin-right: 185px;
+    }
   }
 `;
 export const TopSubTitle = styled.h3`
@@ -51,8 +113,20 @@ export const TopLink = styled.a`
 
 export const BottWrap = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column-reverse;
+
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 `;
 export const Accent = styled.p`
   font-weight: 400;
@@ -61,15 +135,41 @@ export const Accent = styled.p`
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-top: 60px;
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
 `;
-export const ProvisionsWrap = styled.div``;
+export const ProvisionsWrap = styled.div`
+  
+`;
 export const ProvisionsList = styled.ul`
-  display: flex;
-  margin-bottom: 39px;
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    margin-bottom: 39px;
+  }
 `;
 export const ProvisionsItem = styled.li`
   :not(:last-child) {
-    margin-right: 36px;
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: 320px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1440px) {
+    :not(:last-child) {
+      margin-right: 36px;
+    }
   }
 `;
 export const ProvisionsLink = styled.a`
@@ -95,4 +195,8 @@ export const Note = styled.p`
   letter-spacing: 0.04em;
   color: var(--tertiary-color);
   max-width: 463px;
+  margin-top: 60px;
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
 `;

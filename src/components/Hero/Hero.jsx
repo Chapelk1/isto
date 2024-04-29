@@ -1,16 +1,14 @@
-import { Wrap, Title, WrapText, Text } from "./Hero.styled";
+import { Wrap,Section, Title, WrapText, Text, Photo } from "./Hero.styled";
 import {
   Container,
-  Photo,
-  Section,
   Btn,
 } from "components/Helpers/helpers.styled";
 import heroPhoto from "img/hero-photo.png";
 
 const Hero = () => {
   return (
-    <Section style={{ padding: '335px 0 227px 0', }}>
-      <Container style={{ position: "relative" }}>
+    <Section>
+      <Container>
         <Wrap>
           <Title>Clinically proven. Ethically made.</Title>
           <WrapText>
@@ -25,13 +23,6 @@ const Hero = () => {
         <Photo
           src={heroPhoto}
           alt="product container"
-          style={{
-            width: "700px",
-            height: "799px",
-            position: "absolute",
-            left: "556px",
-            top: "-308px",
-          }}
         />
       </Container>
     </Section>

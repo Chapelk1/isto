@@ -1,13 +1,29 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  width: 1030px;
-  padding: 0 15px;
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 724px;
+    padding: 0 12px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 880px;
+    padding: 0 15px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1030px;
+  }
 `;
 
 export const Photo = styled.img`
-transition: all 250ms linear;`;
+transition: all 250ms linear;
+`;
 
 export const Section = styled.section``;
 

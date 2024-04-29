@@ -1,5 +1,5 @@
-import { Section, Photo } from "components/Helpers/helpers.styled";
-import { Wrap, Container, Title, PrimaryTitle, List, Item, SubTitle ,Descr} from "./Advantages.styled";
+import { Section } from "components/Helpers/helpers.styled";
+import { Wrap, Container, Title, PrimaryTitle, List, Item, SubTitle ,Descr,Photo} from "./Advantages.styled";
 import naturesPhoto from "img/natures-photo.png";
 
 const Advantages = () => {
@@ -36,8 +36,7 @@ const Advantages = () => {
           </List>
         </Wrap>
 
-        <Photo src={naturesPhoto} alt="a woman looks to the side" style={{width: '550px',
-height: '812px'}}/>
+        <Photo src={naturesPhoto} alt="a woman looks to the side" />
       </Container>
     </Section>
   );

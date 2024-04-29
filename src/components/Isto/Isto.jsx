@@ -1,19 +1,14 @@
-import { Section, Photo, Btn } from "components/Helpers/helpers.styled";
-import { Wrap, Title, Accent, Text, Container } from "./Isto.styled";
+import { Btn } from "components/Helpers/helpers.styled";
+import { Section, Wrap, Title, Accent, Text, Container, Photo } from "./Isto.styled";
 import istoPhoto from "img/isto-photo.png";
 
 const Isto = () => {
   return (
-    <Section style={{ padding: "50px 0 77px 0" }}>
-      <Container >
+    <Section>
+      <Container> 
         <Photo
           src={istoPhoto}
           alt="human leisure"
-          style={{
-            width: "600px",
-            height: "600px",
-            marginRight: "50px",
-          }}
         />
         <Wrap>
           <Title>CLINICALLY PROVEN</Title>

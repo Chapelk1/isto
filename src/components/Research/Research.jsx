@@ -1,8 +1,8 @@
-import { Title, Descr, List, Item, Span, Text } from "./Research.styled";
-import {Section, Container, Btn} from "components/Helpers/helpers.styled"
+import { Section,Title, Descr, List, Item, Span, Text } from "./Research.styled";
+import { Container, Btn} from "components/Helpers/helpers.styled"
 const Research = () => {
   return (
-    <Section style={{padding: '260px 0 210px 0',     textAlign: 'center',}}>
+    <Section>
       <Container>
         <Title>Industry-changing consistency, purity, and efficacy.</Title>
         <Descr>Bioengineered to help you reach your peak</Descr>
