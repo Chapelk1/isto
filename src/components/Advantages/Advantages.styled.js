@@ -5,28 +5,14 @@ export const Container = styled.div`
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
-  @media screen and (min-width: 320px) {
-  
-  }
-  @media screen and (min-width: 768px) {
-    
-  }
   @media screen and (min-width: 1024px) {
-    
-  }
-  @media screen and (min-width: 1440px) {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 `;
 export const Wrap = styled.div`
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
   @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -51,26 +37,17 @@ export const PrimaryTitle = styled.p`
   letter-spacing: 0.01em;
   color: var(--primary-color);
   margin-bottom: 60px;
-  @media screen and (min-width: 320px) {
-  }
   @media screen and (min-width: 768px) {
     font-size: 54px;
     font-weight: 400;
     margin-bottom: 87px;
   }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
-  }
 `;
 export const List = styled.ul`
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
     max-width: 364px;
   }
 `;
@@ -78,17 +55,16 @@ export const Item = styled.li`
   :not(:last-child) {
     margin-bottom: 50px;
   }
-
-  @media screen and (min-width: 320px) {
+  :nth-child(1){
+    align-self: flex-start;
+  }
+  :nth-child(3){
+    align-self: flex-end;
   }
   @media screen and (min-width: 768px) {
     :not(:last-child) {
       margin-bottom: 68px;
     }
-  }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
   }
 `;
 export const SubTitle = styled.h3`
@@ -98,14 +74,8 @@ export const SubTitle = styled.h3`
   letter-spacing: 0.03em;
   color: var(--primary-color);
   margin-bottom: 26px;
-  @media screen and (min-width: 320px) {
-  }
   @media screen and (min-width: 768px) {
     font-weight: 400;
-  }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
   }
 `;
 export const Descr = styled.p`
@@ -114,25 +84,16 @@ export const Descr = styled.p`
   line-height: 1.59;
   letter-spacing: 0.02em;
   color: var(--primary-color);
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
-  }
+  max-width: 460px;
 `;
 export const Photo = styled.img`
   display: none;
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
   @media screen and (min-width: 1024px) {
+    display: unset;
+    width: 400px;
+    height: 612px;
   }
   @media screen and (min-width: 1440px) {
-    display: unset;
     width: 550px;
     height: 812px;
   }

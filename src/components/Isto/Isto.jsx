@@ -1,5 +1,4 @@
-import { Btn } from "components/Helpers/helpers.styled";
-import { Section, Wrap, Title, Accent, Text, Container, Photo } from "./Isto.styled";
+import { Section, Wrap, Title, Accent, Text, Container, Photo ,Btn} from "./Isto.styled";
 import istoPhoto from "img/isto-photo.png";
 
 const Isto = () => {

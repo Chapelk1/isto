@@ -4,11 +4,11 @@ import styled from "@emotion/styled";
 export const Section = styled.section`
   padding: 60px 0 60px 0;
   overflow: hidden;
-  @media screen and (min-width: 320px) {
-  }
   @media screen and (min-width: 768px) {
+    padding: 100px 0 160px 0;
   }
   @media screen and (min-width: 1024px) {
+    padding: 240px 0 200px 0;
   }
   @media screen and (min-width: 1440px) {
     padding: 335px 0 227px 0;
@@ -16,12 +16,6 @@ export const Section = styled.section`
 `;
 
 export const Wrap = styled.div`
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
-  }
   @media screen and (min-width: 1440px) {
     width: 539px;
     display: flex;
@@ -35,23 +29,14 @@ export const Title = styled.h1`
   letter-spacing: 0.01em;
   color: var(--primary-color);
   margin-bottom: 28px;
-  @media screen and (min-width: 320px) {
-  }
   @media screen and (min-width: 768px) {
     font-size: 54px;
   }
   @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
+    max-width: 539px;
   }
 `;
 export const WrapText = styled.div`
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
-  }
   @media screen and (min-width: 1440px) {
     align-self: end;
   }
@@ -67,18 +52,18 @@ export const Text = styled.p`
 `;
 export const Photo = styled.img`
   display: none;
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-    display: unset;
-    width: 700px;
-    height: 799px;
-    position: absolute;
-    left: 556px;
-    top: -308px;
-  }
   @media screen and (min-width: 1024px) {
+    display: unset;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 512px;
+    top: -58px;
   }
   @media screen and (min-width: 1440px) {
+    width: 700px;
+    height: 799px;
+    left: 556px;
+    top: -308px;
   }
 `;

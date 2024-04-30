@@ -2,12 +2,6 @@ import styled from "@emotion/styled";
 
 export const Section = styled.section`
   padding: 80px 0 80px 0;
-  @media screen and (min-width: 320px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
-  }
   @media screen and (min-width: 1440px) {
     padding: 200px 0 200px 0;
   }
@@ -15,32 +9,26 @@ export const Section = styled.section`
 
 
 export const Title = styled.h2`
-  font-weight: 500;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 25px;
   line-height: 1;
-  letter-spacing: .1em;
+  letter-spacing: .02em;
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-color);
-  margin-bottom: 39px;
+  margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     font-size: 15px;
-    font-weight: 400;
     line-height: 1.3;
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
+    margin-bottom: 39px;
   }
 `;
 export const Wrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (min-width: 320px) {
-  }
   @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,14 +43,16 @@ export const Photo = styled.img`
     margin-bottom: 40px;
   }
   @media screen and (min-width: 320px) {
+    :nth-child(1){
+      align-self: flex-start;
+    }
+    :nth-child(3){
+      align-self: flex-end;
+    }
   }
   @media screen and (min-width: 768px) {
     :not(:last-child) {
       margin-bottom: 0;
     }
-  }
-  @media screen and (min-width: 1024px) {
-  }
-  @media screen and (min-width: 1440px) {
   }
 `;
